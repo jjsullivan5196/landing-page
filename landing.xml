@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="en.xsl"?>
+<landing>
+
+  <title xml:lang="en">We Count Landing</title>
+  <title xml:lang="es">We Count Landing</title>
+  
+  <link url="https://trump-protests.fly.dev/">
+    <name xml:lang="en">Anti-Trump Events</name>
+    <name xml:lang="es">Anti-Trump Events</name>
+
+    <info xml:lang="en">Aggregate data for protests against the administration.</info>
+    <info xml:lang="es">Datos agregados de las protestas contra la administración.</info>
+  </link>
+  
+  <link url="https://protest-eight.vercel.app/">
+    <name xml:lang="en">Protest Tracker</name>
+    <name xml:lang="es">Protest Tracker</name>
+
+    <info xml:lang="en">Document and track protests for the historical record. Help us build a comprehensive database of civic engagement.</info>
+    <info xml:lang="es">Documenta y rastrea las protestas para el registro histórico. Ayúdanos a crear una base de datos completa sobre participación cívica.</info>
+  </link>
+  
+  <link url="https://bit.ly/m/WeCount">
+    <name xml:lang="en">The We Count Project</name>
+    <name xml:lang="es">The We Count Project</name>
+
+    <info xml:lang="en">Help us document the crowd sizes of your events!</info>
+    <info xml:lang="es">¡Ayúdanos a documentar el tamaño de las multitudes en tus eventos!</info>
+  </link>
+  
+</landing>
