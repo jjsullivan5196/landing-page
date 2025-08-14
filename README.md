@@ -9,7 +9,7 @@ block and commit it to this repo to save any edits.
 
 ## TODO
 
-- Find a permanent location for the site, CDN setup etc
-- Figure out language selection serverside (right now it's hardcoded on English)
-- Final copy for design and info
-- Add styles to match other 50501 properties
+- [ ] Find a permanent location for the site, CDN setup etc
+- [x] Figure out language selection serverside (right now it's hardcoded on English)
+- [ ] Final copy for design and info
+- [ ] Add styles to match other 50501 properties

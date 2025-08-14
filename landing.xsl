@@ -1,16 +1,17 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="html" />
+  <xsl:variable name="doc" select="document('landing.xml')" />
   
   <xsl:template match="/">
     <html>
       <head>
-        <title><xsl:value-of select="landing/title[lang($language)]" /></title>
+        <title><xsl:value-of select="$doc/landing/title[lang($language)]" /></title>
       </head>
 
       <body>
 	<article>
 	  <ul>
-	    <xsl:apply-templates select="landing/link" />
+	    <xsl:apply-templates select="$doc/landing/link" />
 	  </ul>
 	</article>
       </body>
