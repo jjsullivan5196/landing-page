@@ -10,12 +10,18 @@
     <html>
       <head>
         <title><xsl:value-of select="$title" /></title>
-	<link rel="stylesheet" href="../dist/style.css" />
 	<link rel="icon" href="../favicon.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
+	<link rel="stylesheet" href="../dist/style.css" />
       </head>
 
-      <body class="min-h-screen bg-gray-100">
+      <body class="min-h-screen bg-fifty-lightgray font-work-sans">
 	<main class="min-h-screen flex flex-col justify-center gap-8 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+	  <section class="flex items-end gap-3">
+	    <a href="../en/" class="bg-fifty-blue text-white text-2xl font-bold shadow rounded-lg sm:p-3"><span>English</span></a>
+	    <a href="../es/" class="bg-fifty-blue text-white text-2xl font-bold shadow rounded-lg sm:p-3"><span>Español</span></a>
+	  </section>
 	  <section class="flex items-center gap-3 h-35 px-4 py-5 sm:p-6 bg-white overflow-hidden shadow rounded-lg">
 	    <div class="w-18">
 	      <img src="../favicon.png" />

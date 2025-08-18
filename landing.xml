@@ -6,6 +6,14 @@
 
   <info xml:lang="en">Quickly find important project resources at these pages.</info>
   <info xml:lang="es">Encuentre rápidamente recursos importantes del proyecto en estas páginas.</info>
+
+  <link url="https://bit.ly/m/WeCount" icon="✊">
+    <name xml:lang="en">The We Count Project</name>
+    <name xml:lang="es">The We Count Project</name>
+
+    <info xml:lang="en">Help us document the crowd sizes of your events!</info>
+    <info xml:lang="es">¡Ayúdanos a documentar el tamaño de las multitudes en tus eventos!</info>
+  </link>
   
   <link url="https://trump-protests.fly.dev/" icon="🪧">
     <name xml:lang="en">Anti-Trump Events</name>
@@ -21,14 +29,6 @@
 
     <info xml:lang="en">Document and track protests for the historical record. Help us build a comprehensive database of civic engagement.</info>
     <info xml:lang="es">Documenta y rastrea las protestas para el registro histórico. Ayúdanos a crear una base de datos completa sobre participación cívica.</info>
-  </link>
-  
-  <link url="https://bit.ly/m/WeCount" icon="✊">
-    <name xml:lang="en">The We Count Project</name>
-    <name xml:lang="es">The We Count Project</name>
-
-    <info xml:lang="en">Help us document the crowd sizes of your events!</info>
-    <info xml:lang="es">¡Ayúdanos a documentar el tamaño de las multitudes en tus eventos!</info>
   </link>
   
 </landing>
