@@ -17,17 +17,17 @@
       </head>
 
       <body class="min-h-screen bg-fifty-lightgray font-work-sans">
-	<main class="min-h-screen flex flex-col justify-center gap-8 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+	<main class="main-content">
 	  <section class="flex items-end gap-3">
-	    <a href="../en/" class="bg-fifty-blue text-white text-2xl font-bold shadow rounded-lg sm:p-3"><span>English</span></a>
-	    <a href="../es/" class="bg-fifty-blue text-white text-2xl font-bold shadow rounded-lg sm:p-3"><span>Español</span></a>
+	    <a href="../en/" class="lang-btn"><span>English</span></a>
+	    <a href="../es/" class="lang-btn"><span>Español</span></a>
 	  </section>
-	  <section class="flex items-center gap-3 h-35 px-4 py-5 sm:p-6 bg-white overflow-hidden shadow rounded-lg">
+	  <section class="info-card">
 	    <div class="w-18">
 	      <img src="../favicon.png" />
 	    </div>
 	    <div>
-	      <h3 class="text-2xl font-bold text-gray-900"><xsl:value-of select="$title" /></h3>
+	      <h3 class="text-2xl font-bold"><xsl:value-of select="$title" /></h3>
 	      <span class="text-xl"><xsl:value-of select="$info" /></span>
 	    </div>
 	  </section>
@@ -39,12 +39,12 @@
 
   <xsl:template match="link">
     <a href="{@url}">
-      <section class="flex items-center gap-3 h-35 px-4 py-5 sm:p-6 bg-white overflow-hidden shadow rounded-lg">
+      <section class="info-card">
 	<div class="text-5xl">
 	  <xsl:value-of select="@icon" />
 	</div>
 	<div>
-	  <h3 class="text-2xl font-bold text-gray-900"><xsl:value-of select="name[lang($language)]" /></h3>
+	  <h3 class="text-2xl font-bold"><xsl:value-of select="name[lang($language)]" /></h3>
 	  <span class="text-xl"><xsl:value-of select="info[lang($language)]" /></span>
 	</div>
       </section>

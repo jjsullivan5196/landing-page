@@ -14,3 +14,18 @@
     --color-fifty-purple: #6B4682;
     --color-fifty-green: #94B97D;
 }
+
+
+@layer components {
+    .main-content {
+	@apply min-h-screen flex flex-col justify-center gap-8 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12;
+    }
+
+    .info-card {
+	@apply flex items-center gap-3 h-35 px-4 py-5 sm:p-6 bg-white overflow-hidden shadow rounded-lg;
+    }
+
+    .lang-btn {
+	@apply bg-fifty-blue text-white text-2xl font-bold shadow rounded-lg sm:p-3;
+    }
+}
