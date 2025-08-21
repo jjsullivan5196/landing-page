@@ -11,11 +11,11 @@
     <name xml:lang="en">We Count Information</name>
     <name xml:lang="es">We Count Información</name>
 
-    <info xml:lang="en">Welcome to the We Count Project’s info
-    hub. Find step-by-step guides, FAQs, and key links here.</info>
-    <info xml:lang="es">Bienvenido al centro de información del
-    Proyecto We Count. Encuentra guías paso a paso, preguntas
-    frecuentes y enlaces clave aquí.</info>
+    <info xml:lang="en">Learn how we can make every protest count. Get
+    started building our movement’s true record.</info>
+    <info xml:lang="es">Descubre cómo podemos hacer que cada protesta
+    cuente. Empieza a construir el verdadero historial de nuestro
+    movimiento.</info>
   </link>
   
   <link url="https://trump-protests.fly.dev/" icon="📈">
@@ -37,8 +37,8 @@
     <info xml:lang="es">Suma el número de tus protestas y ayúdanos a
     que todas las voces sean escuchadas. Contribuye aquí.</info>
   </link>
-  
-  <info xml:lang="en">
+
+  <brief xml:lang="en">
     <p>We count. Will you count with us?</p>
 
     <p>Since 2025, we have come together in our millions to demand
@@ -47,7 +47,20 @@
     misrepresented. If a protest isn’t counted, did it really happen?
     We believe every protest, and every one of us protesters,
     counts.</p>
+  </brief>
 
+  <brief xml:lang="es">
+    <p>Contamos. ¿Contarás con nosotros?</p>
+
+    <p>Desde 2025, millones de personas se han unido para exigir que
+    Trump abandone la Casa Blanca antes del final de su segundo
+    mandato. Pero muchas de nuestras acciones no se contabilizan, no
+    se documentan o se tergiversan. Si una protesta no se contabiliza,
+    ¿realmente ocurrió? Creemos que cada protesta, y cada uno de los
+    manifestantes, cuenta.</p>
+  </brief>
+  
+  <info xml:lang="en">
     <p>We use real numbers to tell our movement’s story. Our dashboard
     visualizes over 11,300 anti-Trump protests, showing the true scope
     and power behind us. Imagine seeing our largest number of
@@ -95,20 +108,11 @@
     because we believe our movement matters and together, we can make
     history with our counts. Protests count. And so do we!</p>
 
-    <p>The We Count Project is brought to you by a small group of <a
+    <p>The We Count Project is brought to us by a small group of <a
     href="https://fiftyfifty.one">50501</a> volunteers.</p>
   </info>
 
   <info xml:lang="es">
-    <p>Contamos. ¿Contarás con nosotros?</p>
-
-    <p>Desde 2025, millones de personas se han unido para exigir que
-    Trump abandone la Casa Blanca antes del final de su segundo
-    mandato. Pero muchas de nuestras acciones no se contabilizan, no
-    se documentan o se tergiversan. Si una protesta no se contabiliza,
-    ¿realmente ocurrió? Creemos que cada protesta, y cada uno de los
-    manifestantes, cuenta.</p>
-
     <p>Usamos cifras reales para contar la historia de nuestro
     movimiento. Nuestro panel visualiza más de 11 300 protestas contra
     Trump, mostrando el verdadero alcance y la fuerza que nos

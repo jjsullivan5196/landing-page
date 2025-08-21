@@ -1,11 +1,13 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:output method="html" />
-  
+
+  <xsl:variable name="language" select="/*/@xml:lang" />
   <xsl:variable name="doc" select="document('landing.xml')" />
   <xsl:variable name="title" select="$doc/landing/title[lang($language)]" />
   <xsl:variable name="subtitle" select="$doc/landing/subtitle[lang($language)]" />
   <xsl:variable name="info" select="$doc/landing/info[lang($language)]" />
+  <xsl:variable name="brief" select="$doc/landing/brief[lang($language)]" />
   
   <xsl:template match="/">
     <html>
@@ -32,29 +34,33 @@
 	    <h3 class="text-4xl font-bold"><xsl:value-of select="$title" /></h3>
 	    <span class="text-xl"><xsl:value-of select="$subtitle" /></span>
 	  </section>
-	  
+
+	  <xsl:apply-templates select="$brief" />
 	  <xsl:apply-templates select="$doc/landing/link" mode="list"/>
-	  
-	  <section class="flex flex-col gap-3">
-	    <xsl:for-each select="$info/p">
-	      <span class="text-xl">
-		<xsl:for-each select="./node()">
-		  <xsl:choose>
-		    <xsl:when test="local-name() = 'a'">
-		      <a href="{@href}"><span class="text-fifty-blue underline"><xsl:value-of select="." /></span></a>
-		    </xsl:when>
-		    <xsl:otherwise>
-		      <xsl:value-of select="." />
-		    </xsl:otherwise>
-		  </xsl:choose>
-		</xsl:for-each>
-	      </span>
-	    </xsl:for-each>
-	  </section>
+	  <xsl:apply-templates select="$info" />
 	  
 	</main>
       </body>
     </html>
+  </xsl:template>
+
+  <xsl:template match="info|brief">
+    <section class="flex flex-col gap-3">
+      <xsl:for-each select="./p">
+	<span class="text-xl">
+	  <xsl:for-each select="./node()">
+	    <xsl:choose>
+	      <xsl:when test="local-name() = 'a'">
+		<a href="{@href}"><span class="text-fifty-blue underline"><xsl:value-of select="." /></span></a>
+	      </xsl:when>
+	      <xsl:otherwise>
+		<xsl:value-of select="." />
+	      </xsl:otherwise>
+	    </xsl:choose>
+	  </xsl:for-each>
+	</span>
+      </xsl:for-each>
+    </section>
   </xsl:template>
 
   <xsl:template match="link" mode="menu-strip">
