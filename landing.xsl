@@ -29,16 +29,16 @@
 	    </div>
 	    <h3 class="text-4xl font-bold"><xsl:value-of select="$title" /></h3>
 	    <span class="text-xl"><xsl:value-of select="$subtitle" /></span>
-	    <div class="flex gap-3">
+	    <!--<div class="flex gap-3">
 	      <xsl:apply-templates select="$doc/landing/link" mode="menu-strip" />
-	    </div>
-	    <div class="flex flex-col gap-3">
-	      <xsl:for-each select="$info/p">
-		<span class="text-xl"><xsl:value-of select="." /></span>
-	      </xsl:for-each>
-	    </div>
+	    </div>-->
 	  </section>
 	  <xsl:apply-templates select="$doc/landing/link" mode="list"/>
+	  <section class="flex flex-col gap-3">
+	    <xsl:for-each select="$info/p">
+	      <span class="text-xl"><xsl:value-of select="." /></span>
+	    </xsl:for-each>
+	  </section>
 	  <section class="flex flex-col items-center">
 	    <span class="text-xl">The We Count Project is brought to you by a small group of <a class="text-fifty-blue underline" href="https://fiftyfifty.one">50501</a> volunteers.</span>
 	  </section>
