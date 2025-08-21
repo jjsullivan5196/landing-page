@@ -4,6 +4,7 @@
   
   <xsl:variable name="doc" select="document('landing.xml')" />
   <xsl:variable name="title" select="$doc/landing/title[lang($language)]" />
+  <xsl:variable name="subtitle" select="$doc/landing/subtitle[lang($language)]" />
   <xsl:variable name="info" select="$doc/landing/info[lang($language)]" />
   
   <xsl:template match="/">
@@ -22,22 +23,44 @@
 	    <a href="../en/" class="lang-btn"><span>English</span></a>
 	    <a href="../es/" class="lang-btn"><span>Español</span></a>
 	  </section>
-	  <section class="info-card">
-	    <div class="w-18">
+	  <section class="flex flex-col items-center gap-3">
+	    <div class="w-32">
 	      <img src="../favicon.png" />
 	    </div>
-	    <div>
-	      <h3 class="text-2xl font-bold"><xsl:value-of select="$title" /></h3>
-	      <span class="text-xl"><xsl:value-of select="$info" /></span>
+	    <h3 class="text-4xl font-bold"><xsl:value-of select="$title" /></h3>
+	    <span class="text-xl"><xsl:value-of select="$subtitle" /></span>
+	    <div class="flex gap-3">
+	      <xsl:apply-templates select="$doc/landing/link" mode="menu-strip" />
+	    </div>
+	    <div class="flex flex-col gap-3">
+	      <xsl:for-each select="$info/p">
+		<span class="text-xl"><xsl:value-of select="." /></span>
+	      </xsl:for-each>
 	    </div>
 	  </section>
-	  <xsl:apply-templates select="$doc/landing/link" />
+	  <xsl:apply-templates select="$doc/landing/link" mode="list"/>
+	  <section class="flex flex-col items-center">
+	    <span class="text-xl">The We Count Project is brought to you by a small group of <a class="text-fifty-blue underline" href="https://fiftyfifty.one">50501</a> volunteers.</span>
+	  </section>
 	</main>
       </body>
     </html>
   </xsl:template>
 
-  <xsl:template match="link">
+  <xsl:template match="link" mode="menu-strip">
+    <a href="{@url}">
+      <section class="info-card">
+	<div class="text-5xl">
+	  <xsl:value-of select="@icon" />
+	</div>
+	<div>
+	  <h3 class="text-2xl font-bold"><xsl:value-of select="name[lang($language)]" /></h3>
+	</div>
+      </section>
+    </a>
+  </xsl:template>
+
+  <xsl:template match="link" mode="list">
     <a href="{@url}">
       <section class="info-card">
 	<div class="text-5xl">

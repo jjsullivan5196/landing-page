@@ -1,34 +1,132 @@
 <?xml version="1.0"?>
 <landing>
 
-  <title xml:lang="en">We Count Project Links</title>
-  <title xml:lang="es">Enlaces del proyecto We Count</title>
+  <title xml:lang="en">The We Count Project</title>
+  <title xml:lang="es">El Proyecto de We Count</title>
 
-  <info xml:lang="en">Quickly find important project resources at these pages.</info>
-  <info xml:lang="es">Encuentre rápidamente recursos importantes del proyecto en estas páginas.</info>
+  <subtitle xml:lang="en">Protests Count. So Should We!</subtitle>
+  <subtitle xml:lang="es">Protests Count. So Should We!</subtitle>
+    
+  <link url="https://bit.ly/m/WeCount" icon="📚">
+    <name xml:lang="en">We Count Information</name>
+    <name xml:lang="es">We Count Informacion</name>
 
-  <link url="https://bit.ly/m/WeCount" icon="✊">
-    <name xml:lang="en">The We Count Project</name>
-    <name xml:lang="es">The We Count Project</name>
-
-    <info xml:lang="en">Help us document the crowd sizes of your events!</info>
-    <info xml:lang="es">¡Ayúdanos a documentar el tamaño de las multitudes en tus eventos!</info>
+    <info xml:lang="en">Welcome to the We Count Project’s info hub. Find step-by-step guides, FAQs, and key links here.</info>
+    <info xml:lang="es">Welcome to the We Count Project’s info hub. Find step-by-step guides, FAQs, and key links here.</info>
   </link>
   
-  <link url="https://trump-protests.fly.dev/" icon="🪧">
-    <name xml:lang="en">Anti-Trump Events</name>
-    <name xml:lang="es">Anti-Trump Events</name>
+  <link url="https://trump-protests.fly.dev/" icon="📈">
+    <name xml:lang="en">We Count Dashboard</name>
+    <name xml:lang="es">We Count Dashboard</name>
 
-    <info xml:lang="en">Aggregate data for protests against the administration.</info>
-    <info xml:lang="es">Datos agregados de las protestas contra la administración.</info>
+    <info xml:lang="en">Explore our interactive dashboard to see the real numbers behind the anti-Trump protests.</info>
+    <info xml:lang="es">Explore our interactive dashboard to see the real numbers behind the anti-Trump protests.</info>
   </link>
   
-  <link url="https://protest-eight.vercel.app/" icon="📊">
-    <name xml:lang="en">Protest Tracker</name>
-    <name xml:lang="es">Protest Tracker</name>
+  <link url="https://submit.wecountproject.com/" icon="📖">
+    <name xml:lang="en">We Count Sourcebook</name>
+    <name xml:lang="es">We Count Sourcebook</name>
 
-    <info xml:lang="en">Document and track protests for the historical record. Help us build a comprehensive database of civic engagement.</info>
-    <info xml:lang="es">Documenta y rastrea las protestas para el registro histórico. Ayúdanos a crear una base de datos completa sobre participación cívica.</info>
+    <info xml:lang="en">Add your protest counts and help us make every voice heard. Contribute here.</info>
+    <info xml:lang="es">Add your protest counts and help us make every voice heard. Contribute here.</info>
   </link>
+  
+  <info xml:lang="en">
+    <p>We count. Will you count with us?</p>
+
+    <p>Since 2025, we have come together in our millions to demand
+    Trump leave the White House before the end of his second term. But
+    too many of our actions go uncounted, undocumented, or
+    misrepresented. If a protest isn’t counted, did it really happen?
+    We believe every protest, and every one of us protesters,
+    counts.</p>
+
+    <p>We use real numbers to tell our movement’s story. Our dashboard
+    visualizes over 11,300 anti-Trump protests, showing the true scope
+    and power behind us. Imagine seeing our largest number of
+    participants in a single day of protest (over 3 million), our
+    percentage of participation compared to the 3.5% Rule (1.67%), or
+    the overwhelming percentage of protests with no injuries (99.8%),
+    arrests (99.4%), or property damage (99.7%). Our numbers show the
+    scale, the solidarity, and the nonviolent nature of our
+    movement.</p>
+
+    <p>When we count by designating counters, getting accurate crowd
+    counts, and creating public sources, our actions shape the record,
+    inform the media, and build momentum of dissent. The Crowd
+    Counting Consortium (CCC), an independent public project out of
+    Harvard University in conjunction with the University of
+    Connecticut, collects data on protests that meet qualifying
+    criteria. By making sure our protests are counted, we measure not
+    just size (mass) but also the velocity of our movement. Mass
+    multiplied by frequency (velocity) equals our momentum of dissent,
+    and it’s what builds the power to force an "irregular leader exit"
+    (Trump's resignation).</p>
+    
+    <p>We empower organizers: before any of our protests, we plan how
+    we will count the crowds. During our protests, we tally the crowds
+    and save the details. Afterward, we create public sources and, if
+    possible, submit to CCC so our movement is truly seen. It's also
+    important that we follow up and make corrections as needed with
+    the CCC.</p>
+
+    <p>Coalitions and organizations can use our materials to share
+    these best practices and our dashboard to inspire action. The
+    media can report the real numbers, not the lore [myths?]. Every
+    participant can be counted, no registration required.</p>
+
+    <p>We count our protests. We count each protester. We count
+    because we believe our movement matters and together, we can make
+    history with our counts. Protests count. And so do we!</p>
+  </info>
+
+  <info xml:lang="es">
+    <p>We count. Will you count with us?</p>
+
+    <p>Since 2025, we have come together in our millions to demand
+    Trump leave the White House before the end of his second term. But
+    too many of our actions go uncounted, undocumented, or
+    misrepresented. If a protest isn’t counted, did it really happen?
+    We believe every protest, and every one of us protesters,
+    counts.</p>
+
+    <p>We use real numbers to tell our movement’s story. Our dashboard
+    visualizes over 11,300 anti-Trump protests, showing the true scope
+    and power behind us. Imagine seeing our largest number of
+    participants in a single day of protest (over 3 million), our
+    percentage of participation compared to the 3.5% Rule (1.67%), or
+    the overwhelming percentage of protests with no injuries (99.8%),
+    arrests (99.4%), or property damage (99.7%). Our numbers show the
+    scale, the solidarity, and the nonviolent nature of our
+    movement.</p>
+
+    <p>When we count by designating counters, getting accurate crowd
+    counts, and creating public sources, our actions shape the record,
+    inform the media, and build momentum of dissent. The Crowd
+    Counting Consortium (CCC), an independent public project out of
+    Harvard University in conjunction with the University of
+    Connecticut, collects data on protests that meet qualifying
+    criteria. By making sure our protests are counted, we measure not
+    just size (mass) but also the velocity of our movement. Mass
+    multiplied by frequency (velocity) equals our momentum of dissent,
+    and it’s what builds the power to force an "irregular leader exit"
+    (Trump's resignation).</p>
+    
+    <p>We empower organizers: before any of our protests, we plan how
+    we will count the crowds. During our protests, we tally the crowds
+    and save the details. Afterward, we create public sources and, if
+    possible, submit to CCC so our movement is truly seen. It's also
+    important that we follow up and make corrections as needed with
+    the CCC.</p>
+
+    <p>Coalitions and organizations can use our materials to share
+    these best practices and our dashboard to inspire action. The
+    media can report the real numbers, not the lore [myths?]. Every
+    participant can be counted, no registration required.</p>
+
+    <p>We count our protests. We count each protester. We count
+    because we believe our movement matters and together, we can make
+    history with our counts. Protests count. And so do we!</p>
+  </info>
   
 </landing>
