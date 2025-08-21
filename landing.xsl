@@ -19,29 +19,39 @@
 
       <body class="min-h-screen bg-fifty-lightgray font-work-sans">
 	<main class="main-content">
+	  
 	  <section class="flex items-end gap-3">
 	    <a href="../en/" class="lang-btn"><span>English</span></a>
 	    <a href="../es/" class="lang-btn"><span>Español</span></a>
 	  </section>
+	  
 	  <section class="flex flex-col items-center gap-3">
 	    <div class="w-32">
 	      <img src="../favicon.png" />
 	    </div>
 	    <h3 class="text-4xl font-bold"><xsl:value-of select="$title" /></h3>
 	    <span class="text-xl"><xsl:value-of select="$subtitle" /></span>
-	    <!--<div class="flex gap-3">
-	      <xsl:apply-templates select="$doc/landing/link" mode="menu-strip" />
-	    </div>-->
 	  </section>
+	  
 	  <xsl:apply-templates select="$doc/landing/link" mode="list"/>
+	  
 	  <section class="flex flex-col gap-3">
 	    <xsl:for-each select="$info/p">
-	      <span class="text-xl"><xsl:value-of select="." /></span>
+	      <span class="text-xl">
+		<xsl:for-each select="./node()">
+		  <xsl:choose>
+		    <xsl:when test="local-name() = 'a'">
+		      <a href="{@href}"><span class="text-fifty-blue underline"><xsl:value-of select="." /></span></a>
+		    </xsl:when>
+		    <xsl:otherwise>
+		      <xsl:value-of select="." />
+		    </xsl:otherwise>
+		  </xsl:choose>
+		</xsl:for-each>
+	      </span>
 	    </xsl:for-each>
 	  </section>
-	  <section class="flex flex-col items-center">
-	    <span class="text-xl">The We Count Project is brought to you by a small group of <a class="text-fifty-blue underline" href="https://fiftyfifty.one">50501</a> volunteers.</span>
-	  </section>
+	  
 	</main>
       </body>
     </html>

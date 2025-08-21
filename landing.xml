@@ -2,33 +2,40 @@
 <landing>
 
   <title xml:lang="en">The We Count Project</title>
-  <title xml:lang="es">El Proyecto de We Count</title>
+  <title xml:lang="es">El proyecto We Count</title>
 
   <subtitle xml:lang="en">Protests Count. So Should We!</subtitle>
-  <subtitle xml:lang="es">Protests Count. So Should We!</subtitle>
+  <subtitle xml:lang="es">Las protestas cuentan. ¡Nosotros también deberíamos!</subtitle>
     
   <link url="https://bit.ly/m/WeCount" icon="📚">
     <name xml:lang="en">We Count Information</name>
-    <name xml:lang="es">We Count Informacion</name>
+    <name xml:lang="es">We Count Información</name>
 
-    <info xml:lang="en">Welcome to the We Count Project’s info hub. Find step-by-step guides, FAQs, and key links here.</info>
-    <info xml:lang="es">Welcome to the We Count Project’s info hub. Find step-by-step guides, FAQs, and key links here.</info>
+    <info xml:lang="en">Welcome to the We Count Project’s info
+    hub. Find step-by-step guides, FAQs, and key links here.</info>
+    <info xml:lang="es">Bienvenido al centro de información del
+    Proyecto We Count. Encuentra guías paso a paso, preguntas
+    frecuentes y enlaces clave aquí.</info>
   </link>
   
   <link url="https://trump-protests.fly.dev/" icon="📈">
     <name xml:lang="en">We Count Dashboard</name>
     <name xml:lang="es">We Count Dashboard</name>
 
-    <info xml:lang="en">Explore our interactive dashboard to see the real numbers behind the anti-Trump protests.</info>
-    <info xml:lang="es">Explore our interactive dashboard to see the real numbers behind the anti-Trump protests.</info>
+    <info xml:lang="en">Explore our interactive dashboard to see the
+    real numbers behind the anti-Trump protests.</info>
+    <info xml:lang="es">Explora nuestro panel interactivo para ver los
+    números reales detrás de las protestas contra Trump.</info>
   </link>
   
   <link url="https://submit.wecountproject.com/" icon="📖">
     <name xml:lang="en">We Count Sourcebook</name>
     <name xml:lang="es">We Count Sourcebook</name>
 
-    <info xml:lang="en">Add your protest counts and help us make every voice heard. Contribute here.</info>
-    <info xml:lang="es">Add your protest counts and help us make every voice heard. Contribute here.</info>
+    <info xml:lang="en">Add your protest counts and help us make every
+    voice heard. Contribute here.</info>
+    <info xml:lang="es">Suma el número de tus protestas y ayúdanos a
+    que todas las voces sean escuchadas. Contribuye aquí.</info>
   </link>
   
   <info xml:lang="en">
@@ -53,80 +60,112 @@
 
     <p>When we count by designating counters, getting accurate crowd
     counts, and creating public sources, our actions shape the record,
-    inform the media, and build momentum of dissent. The Crowd
-    Counting Consortium (CCC), an independent public project out of
-    Harvard University in conjunction with the University of
-    Connecticut, collects data on protests that meet qualifying
-    criteria. By making sure our protests are counted, we measure not
-    just size (mass) but also the velocity of our movement. Mass
+    inform the media, and build <a
+    href="https://bura.brunel.ac.uk/bitstream/2438/19075/1/FullText.pdf">momentum
+    of dissent</a>. <a
+    href="https://ash.harvard.edu/programs/crowd-counting-consortium"
+    >The Crowd Counting Consortium</a> (CCC), an independent public
+    project out of Harvard University in conjunction with the
+    University of Connecticut, collects data on protests that meet <a
+    href="https://docs.google.com/document/d/15k2pAnpq45zUfYSWWeW2QtB4MdWa2_VkkcatqwvfUb4/edit?tab=t.0#heading=h.1ouxff7e1jty">qualifying
+    criteria</a>. By making sure our protests are counted, we measure
+    not just size (mass) but also the velocity of our movement. Mass
     multiplied by frequency (velocity) equals our momentum of dissent,
     and it’s what builds the power to force an "irregular leader exit"
     (Trump's resignation).</p>
     
-    <p>We empower organizers: before any of our protests, we plan how
-    we will count the crowds. During our protests, we tally the crowds
-    and save the details. Afterward, we create public sources and, if
-    possible, submit to CCC so our movement is truly seen. It's also
-    important that we follow up and make corrections as needed with
-    the CCC.</p>
+    <p>We empower organizers: before any of our protests, we plan <a
+    href="https://docs.google.com/document/d/1_V9M5_F2MWJnzJNv5wSaqCIzVJ-OLnyR_yCmVO-sQMU/edit?tab=t.0#heading=h.vh3j28fq1i3">how
+    we will count</a> the crowds. During our protests, we tally the
+    crowds and save the details. Afterward, we <a
+    href="https://submit.wecountproject.com/form">create public
+    sources</a> and, if possible, <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSc3W_tb71fiEJhi379y0T6gttQ0f9nbb23bj8iicceLP_j8rQ/viewform">submit
+    to CCC</a> so our movement is truly seen. It's also important that
+    we follow up and <a
+    href="https://docs.google.com/document/d/1pOiZ3UGzNIABGnxDKz6s2Bj_GJTE2dnjL65qNQGjc-c/edit?tab=t.0#heading=h.vh3j28fq1i3">make
+    corrections</a> as needed with the CCC.</p>
 
     <p>Coalitions and organizations can use our materials to share
     these best practices and our dashboard to inspire action. The
-    media can report the real numbers, not the lore [myths?]. Every
+    media can report the real numbers, not a narrative. Every
     participant can be counted, no registration required.</p>
 
     <p>We count our protests. We count each protester. We count
     because we believe our movement matters and together, we can make
     history with our counts. Protests count. And so do we!</p>
+
+    <p>The We Count Project is brought to you by a small group of <a
+    href="https://fiftyfifty.one">50501</a> volunteers.</p>
   </info>
 
   <info xml:lang="es">
-    <p>We count. Will you count with us?</p>
+    <p>Contamos. ¿Contarás con nosotros?</p>
 
-    <p>Since 2025, we have come together in our millions to demand
-    Trump leave the White House before the end of his second term. But
-    too many of our actions go uncounted, undocumented, or
-    misrepresented. If a protest isn’t counted, did it really happen?
-    We believe every protest, and every one of us protesters,
-    counts.</p>
+    <p>Desde 2025, millones de personas se han unido para exigir que
+    Trump abandone la Casa Blanca antes del final de su segundo
+    mandato. Pero muchas de nuestras acciones no se contabilizan, no
+    se documentan o se tergiversan. Si una protesta no se contabiliza,
+    ¿realmente ocurrió? Creemos que cada protesta, y cada uno de los
+    manifestantes, cuenta.</p>
 
-    <p>We use real numbers to tell our movement’s story. Our dashboard
-    visualizes over 11,300 anti-Trump protests, showing the true scope
-    and power behind us. Imagine seeing our largest number of
-    participants in a single day of protest (over 3 million), our
-    percentage of participation compared to the 3.5% Rule (1.67%), or
-    the overwhelming percentage of protests with no injuries (99.8%),
-    arrests (99.4%), or property damage (99.7%). Our numbers show the
-    scale, the solidarity, and the nonviolent nature of our
-    movement.</p>
+    <p>Usamos cifras reales para contar la historia de nuestro
+    movimiento. Nuestro panel visualiza más de 11 300 protestas contra
+    Trump, mostrando el verdadero alcance y la fuerza que nos
+    respalda. Imaginen ver a nuestro mayor número de participantes en
+    un solo día de protesta (más de 3 millones), nuestro porcentaje de
+    participación en comparación con la regla del 3,5 % (1,67 %), o el
+    abrumador porcentaje de protestas sin heridos (99,8 %), arrestos
+    (99,4 %) ni daños materiales (99,7 %). Nuestras cifras muestran la
+    magnitud, la solidaridad y la naturaleza no violenta de nuestro
+    movimiento.</p>
 
-    <p>When we count by designating counters, getting accurate crowd
-    counts, and creating public sources, our actions shape the record,
-    inform the media, and build momentum of dissent. The Crowd
-    Counting Consortium (CCC), an independent public project out of
-    Harvard University in conjunction with the University of
-    Connecticut, collects data on protests that meet qualifying
-    criteria. By making sure our protests are counted, we measure not
-    just size (mass) but also the velocity of our movement. Mass
-    multiplied by frequency (velocity) equals our momentum of dissent,
-    and it’s what builds the power to force an "irregular leader exit"
-    (Trump's resignation).</p>
+    <p>Cuando contabilizamos mediante la designación de contadores, la
+    obtención de recuentos precisos de la multitud y la creación de
+    fuentes públicas, nuestras acciones moldean el registro, informan
+    a los medios de comunicación y generan <a
+    href="https://bura.brunel.ac.uk/bitstream/2438/19075/1/FullText.pdf">impulso
+    de disidencia</a>. <a
+    href="https://ash.harvard.edu/programs/crowd-counting-consortium"
+    >El Consorcio de Conteo de Multitudes</a> (CCC), un proyecto
+    público independiente de la Universidad de Harvard en colaboración
+    con la Universidad de Connecticut, recopila datos sobre las
+    protestas que cumplen los <a
+    href="https://docs.google.com/document/d/15k2pAnpq45zUfYSWWeW2QtB4MdWa2_VkkcatqwvfUb4/edit?tab=t.0#heading=h.1ouxff7e1jty">criterios
+    de elegibilidad</a>. Al asegurarnos de que nuestras protestas se
+    contabilicen, medimos no solo el tamaño (masa), sino también la
+    velocidad de nuestro movimiento. La masa multiplicada por la
+    frecuencia (velocidad) equivale a nuestro impulso de disidencia, y
+    es lo que genera el poder para forzar la "salida irregular de un
+    líder" (la renuncia de Trump).</p>
     
-    <p>We empower organizers: before any of our protests, we plan how
-    we will count the crowds. During our protests, we tally the crowds
-    and save the details. Afterward, we create public sources and, if
-    possible, submit to CCC so our movement is truly seen. It's also
-    important that we follow up and make corrections as needed with
-    the CCC.</p>
+    <p>Empoderamos a los organizadores: antes de cada protesta,
+    planificamos <a
+    href="https://docs.google.com/document/d/1_V9M5_F2MWJnzJNv5wSaqCIzVJ-OLnyR_yCmVO-sQMU/edit?tab=t.0#heading=h.vh3j28fq1i3">cómo
+    contaremos</a> a la multitud. Durante las protestas,
+    contabilizamos a la multitud y guardamos los
+    detalles. Posteriormente, creamos <a
+    href="https://submit.wecountproject.com/form">fuentes públicas</a>
+    y, si es posible, <a
+    href="https://docs.google.com/forms/d/e/1FAIpQLSc3W_tb71fiEJhi379y0T6gttQ0f9nbb23bj8iicceLP_j8rQ/viewform">las
+    enviamos al CCC</a> para que nuestro movimiento sea realmente
+    visible. También es importante que hagamos seguimiento y <a
+    href="https://docs.google.com/document/d/1pOiZ3UGzNIABGnxDKz6s2Bj_GJTE2dnjL65qNQGjc-c/edit?tab=t.0#heading=h.vh3j28fq1i3">hagamos
+    las correcciones</a> necesarias con el CCC.</p>
 
-    <p>Coalitions and organizations can use our materials to share
-    these best practices and our dashboard to inspire action. The
-    media can report the real numbers, not the lore [myths?]. Every
-    participant can be counted, no registration required.</p>
+    <p>Las coaliciones y organizaciones pueden usar nuestros
+    materiales para compartir estas buenas prácticas y nuestro panel
+    de control para inspirar la acción. Los medios de comunicación
+    pueden reportar las cifras reales, no una narrativa. Cada
+    participante puede ser contado; no es necesario registrarse.</p>
 
-    <p>We count our protests. We count each protester. We count
-    because we believe our movement matters and together, we can make
-    history with our counts. Protests count. And so do we!</p>
+    <p>Contamos nuestras protestas. Contamos a cada
+    manifestante. Contamos porque creemos que nuestro movimiento
+    importa y, juntos, podemos hacer historia con nuestros
+    recuentos. Las protestas cuentan. ¡Y nosotros también!</p>
+
+    <p>El Proyecto We Count es presentado por un pequeño grupo de <a
+    href="https://fiftyfifty.one">50501</a> voluntarios.</p>
   </info>
   
 </landing>
