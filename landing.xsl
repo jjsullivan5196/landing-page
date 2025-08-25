@@ -47,7 +47,7 @@
   <xsl:template match="info|brief">
     <section class="flex flex-col gap-3">
       <xsl:for-each select="./p">
-	<span class="text-xl">
+	<span class="text-xl {@class}">
 	  <xsl:for-each select="./node()">
 	    <xsl:choose>
 	      <xsl:when test="local-name() = 'a'">
