@@ -106,8 +106,10 @@
 
     <p>We count our protests. We count each protester. We count
     because we believe our movement matters and together, we can make
-    history with our counts. Protests count. And so do we!</p>
+    history with our counts.</p>
 
+    <p class="self-center">Protests count. And so do we!</p>
+    
     <p class="self-center">The We Count Project is brought to us by a small group of <a
     href="https://fiftyfifty.one">50501</a> volunteers.</p>
   </info>
@@ -166,7 +168,9 @@
     <p>Contamos nuestras protestas. Contamos a cada
     manifestante. Contamos porque creemos que nuestro movimiento
     importa y, juntos, podemos hacer historia con nuestros
-    recuentos. Las protestas cuentan. ¡Y nosotros también!</p>
+    recuentos.</p>
+
+    <p class="self-center">Las protestas cuentan. ¡Y nosotros también!</p>
 
     <p class="self-center">El Proyecto We Count es presentado por un pequeño grupo de <a
     href="https://fiftyfifty.one">50501</a> voluntarios.</p>
